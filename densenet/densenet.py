@@ -39,3 +39,14 @@ def batch_normalization(x, training, scope):
 def drop_out(x, rate, training):
     return tf.layers.dropout(inputs=x, rate=rate, name='drop_out')
 
+
+def relu(x):
+    return tf.nn.relu(x)
+
+
+def average_pooling(x, pool_size=[2, 2], stride=2, padding="VALID"):
+    return tf.layers.average_pooling2d(inputs=x, pool_size=pool_size,
+                                       strides=stride, padding=padding)
+
+
+
