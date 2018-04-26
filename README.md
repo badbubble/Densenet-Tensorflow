@@ -30,3 +30,7 @@ tf.contrib.framework.arg_scope(list_ops_or_scope, **kwargs)  # 为给定的 list
 ## 未解决的问题
 * [ ] 整理代码结构
 * [ ] Batch Normalization的具体原理以及代码部分(看一下概率论)
+* [ ] 对大图片的处理
+
+---
+抄袭自[这里](https://github.com/taki0112/Densenet-Tensorflow)
